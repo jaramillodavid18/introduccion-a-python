@@ -1,0 +1,7 @@
+git init ----> inicializa un repositorio local
+
+git add ----> agrega cambios al stage
+
+git commit -m "mensaje"  ---->guarda cambios en el repo local
+
+git push origin main ----> sube commits al repo en la nube (gitHub)
