@@ -21,3 +21,16 @@ resultado = a * b
 # Mostrar el resultado en un formato string
 print(f"El resultado de la multiplicación es: {resultado}")
 
+# Ejercicio 2.23
+# Uso de items()
+print("=== Ejercicio 2.23 ===")
+print("Resultado de calificaciones.items():", calificaciones.items())
+print("Tipo de dato devuelto:", type(calificaciones.items()))
+print("Nota: items() devuelve un objeto dict_items, similar a una lista de tuplas.")
+print("\n")
+
+# Ejercicio 2.24
+# Usar update() para cambiar la nota de Liliana
+print("=== Ejercicio 2.24 ===")
+calificaciones.update({"Liliana": 4.7})
+print("Diccionario después de update():", calificaciones)
